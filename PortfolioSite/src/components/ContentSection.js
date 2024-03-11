@@ -18,14 +18,13 @@ const ContentSection = () => {
           </div>
           <div className="button1">
             <div className="see-resume">{`See Work `}</div>
-            <img className="plus-icon" alt="" src="/plus.svg" />
           </div>
         </div>
       </div>
       <div className="circle-portrait">
         <img
           className="profilepicture-icon"
-          alt=""
+          alt="Profile Picture"
           src="/profilepicture@2x.png"
         />
       </div>

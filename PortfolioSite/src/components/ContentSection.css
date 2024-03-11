@@ -2,13 +2,13 @@
   color: var(--basic-white);
 }
 .im-kyle-anthony {
-  width: 63rem;
+  width: 50rem;
   position: relative;
   font-weight: 800;
   display: inline-block;
 }
 .a-mobileweb-developer {
-  width: 45.563rem;
+  width: 45rem;
   font-size: var(--inter-24-medium-size);
   line-height: 2.25rem;
   display: inline-block;
@@ -65,17 +65,15 @@
   color: var(--basic-white);
 }
 .herotext {
-  width: 63rem;
   height: 23.813rem;
   flex-direction: column;
   justify-content: center;
   gap: 2.5rem 0;
 }
 .profilepicture-icon {
-  width: 21.875rem;
-  /* position: relative; */
+  width: 22rem;
+  position: relative;
   border-radius: var(--br-331xl);
-  height: 21.875rem;
   object-fit: cover;
 }
 .circle-portrait,
@@ -84,7 +82,6 @@
   flex-direction: row;
 }
 .circle-portrait {
-  width: 22.188rem;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-17xl) 0;
@@ -92,11 +89,8 @@
 }
 .herosection {
   margin-top: 12rem;
-  margin-right: 5rem;
-  width: 67.063rem;
   align-items: center;
-  justify-content: space-between;
-  text-align: left;
+
   font-size: var(--inter-80-extra-bold-size);
   color: var(--basic-dark-gray);
   font-family: var(--inter-18-medium);

@@ -19,7 +19,7 @@ const AboutContainer = () => {
         <a href="https://github.com/KyleAnthonyHay" target="_blank">
         <img className="github-icon" alt="" src="/github.svg" />
         </a>
-        <div className="line" />
+        {/* <div className="line" /> */}
         {/* <img className="linkedin-icon" alt="" src="/sun.svg" />
         <div className="whitespace" /> */}
       </div>

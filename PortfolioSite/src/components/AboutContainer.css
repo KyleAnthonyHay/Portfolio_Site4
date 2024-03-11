@@ -53,22 +53,22 @@
   justify-content: center;
   gap: 0 1.5rem;
   opacity: 0.7;
+  padding-right: 1.5rem;
 }
 .navbar {
   width: 70%;
-  /* Removed the positioning properties like top, left, and transform */
   border-radius: var(--br-xs);
-  background-color: var(--color-gray-100);
+  background-color: rgba(61, 61, 61, 0.7); /* Adjusted for glass effect */
   backdrop-filter: blur(4px);
   overflow: hidden;
-  display: flex; /* Use flexbox to manage the inner layout */
-  justify-content: space-between; /* Keeps items spaced out */
-  padding: var(--padding-base); /* Your existing padding inside the navbar */
+  display: flex; 
+  justify-content: space-between;
+  padding: var(--padding-base);
   box-sizing: border-box;
   text-align: left;
-  font-size: var(--inter-16-medium-size);
+  font-size: var(--inter-16-medium-size); /* Ensure this variable is defined */
   color: var(--basic-light-gray);
-  font-family: var(--inter-18-medium);
-  
+  font-family: var(--inter-18-medium); /* Ensure this variable is defined */
 }
+
 
