@@ -1,0 +1,104 @@
+.kyle-anthony {
+  color: var(--basic-white);
+}
+.im-kyle-anthony {
+  width: 63rem;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+}
+.a-mobileweb-developer {
+  width: 45.563rem;
+  font-size: var(--inter-24-medium-size);
+  line-height: 2.25rem;
+  display: inline-block;
+}
+.a-mobileweb-developer,
+.see-resume {
+  position: relative;
+  font-weight: 500;
+}
+.button {
+  border-radius: var(--br-4xs);
+  background: linear-gradient(180deg, #1a1a1a, #131313);
+  box-shadow: var(--dark-button-shadow);
+  height: 3.75rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-13xl);
+  box-sizing: border-box;
+}
+.plus-icon {
+  width: 1.5rem;
+  position: relative;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button1 {
+  border-radius: var(--br-4xs);
+  background: linear-gradient(180deg, #1a1a1a, #131313);
+  box-shadow: var(--dark-button-shadow);
+  height: 3.75rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+}
+.buttons,
+.herotext {
+  display: flex;
+  align-items: flex-start;
+}
+.buttons {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 1rem;
+  font-size: var(--inter-18-medium-size);
+  color: var(--basic-white);
+}
+.herotext {
+  width: 63rem;
+  height: 23.813rem;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem 0;
+}
+.profilepicture-icon {
+  width: 21.875rem;
+  position: relative;
+  border-radius: var(--br-331xl);
+  height: 21.875rem;
+  object-fit: cover;
+}
+.circle-portrait,
+.herosection {
+  display: flex;
+  flex-direction: row;
+}
+.circle-portrait {
+  width: 22.188rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) 0;
+  box-sizing: border-box;
+}
+.herosection {
+  position: absolute;
+  top: calc(50% - 211px);
+  left: calc(50% - 537px);
+  width: 67.063rem;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--inter-80-extra-bold-size);
+  color: var(--basic-dark-gray);
+  font-family: var(--inter-18-medium);
+}
