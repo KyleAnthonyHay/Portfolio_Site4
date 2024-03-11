@@ -16,7 +16,7 @@ body {
   /* Colors */
   --basic-white: #fff;
   --basic-dark-gray: #808080;
-  --dark-white-25: rgba(255, 255, 255, 0.25);
+  --dark-white-25: rgba(249, 249, 249, 0.85);
   --color-gray-100: rgba(24, 24, 29, 0.3);
   --basic-light-gray: #c5c5c5;
 

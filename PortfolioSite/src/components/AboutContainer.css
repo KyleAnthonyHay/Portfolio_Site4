@@ -5,9 +5,10 @@
   object-fit: cover;
   mix-blend-mode: normal;
 }
-.about {
+.navbar-links {
   position: relative;
   font-weight: 500;
+  color: white;
 }
 .links {
   display: flex;
