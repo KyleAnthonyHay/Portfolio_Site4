@@ -1,0 +1,21 @@
+.worksection {
+  display: flex; /* Use flexbox to align children */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: flex-start;
+  padding-top: 7rem;
+
+  width: 100%;
+  background-color: #000;
+  height: 64rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 4rem;
+  color: var(--basic-white);
+  font-family: var(--inter-18-medium);
+}
+
+.work {
+  top: 8.375rem;
+  left: 13.063rem;
+}

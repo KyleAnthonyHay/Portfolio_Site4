@@ -12,6 +12,8 @@ body {
   --inter-24-medium-size: 1.5rem;
   --inter-80-extra-bold-size: 5rem;
   --inter-16-medium-size: 1rem;
+  --font-size-13xl: 2rem;
+  --font-size-21xl: 2.5rem;
 
   /* Colors */
   --basic-white: #fff;
@@ -19,9 +21,13 @@ body {
   --dark-white-25: rgba(249, 249, 249, 0.85);
   --color-gray-100: rgba(24, 24, 29, 0.3);
   --basic-light-gray: #c5c5c5;
+  --color-darkslategray: #383737;
+  --basic-dark-gray: #808080;
+  --basic-onyx: #181818;
 
   /* Gaps */
   --gap-21xl: 2.5rem;
+  --gap-base: 1rem;
   --gap-0: 0rem;
 
   /* Paddings */
@@ -33,6 +39,7 @@ body {
   --br-331xl: 350px;
   --br-4xs: 9px;
   --br-xs: 12px;
+  --br-13xl: 32px;
 
   /* Effects */
   --dark-button-shadow: 0px 1px 2px rgba(255, 255, 255, 0.02) inset,
