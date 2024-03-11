@@ -73,7 +73,7 @@
 }
 .profilepicture-icon {
   width: 21.875rem;
-  position: relative;
+  /* position: relative; */
   border-radius: var(--br-331xl);
   height: 21.875rem;
   object-fit: cover;
@@ -91,9 +91,8 @@
   box-sizing: border-box;
 }
 .herosection {
-  position: absolute;
-  top: calc(50% - 211px);
-  left: calc(50% - 537px);
+  margin-top: 12rem;
+  margin-right: 5rem;
   width: 67.063rem;
   align-items: center;
   justify-content: space-between;

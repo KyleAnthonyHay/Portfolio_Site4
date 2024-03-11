@@ -1,7 +1,13 @@
 .desktop-1 {
+  display: flex; /* Use flexbox to align children */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: flex-start;
   width: 100%;
+  padding-top: 3rem;
+
   position: relative;
   background-color: #000;
-  height: 64rem;
+  height: 60rem;
   overflow: hidden;
 }
