@@ -9,7 +9,21 @@
   font-family: var(--inter-18-medium);
   /* padding top and bottom */
   padding: 3rem 3rem;
+  transition: .8s;
 }
+
+.colorconnect-card::before {
+
+}
+
+.colorconnect-card::before {
+
+}
+
+.colorconnect-card:hover {
+  transform: translateY(-1rem);
+}
+
 .project-card {
   width: 64rem;
   position: relative;
@@ -99,7 +113,12 @@
   justify-content: center;
   gap: 0 0.5rem;
   font-size: var(--inter-18-medium-size);
+  transition: 1s;
 }
 
+.button:hover {
+  transform: translateY(-0.25rem);
+  
+}
 
 
