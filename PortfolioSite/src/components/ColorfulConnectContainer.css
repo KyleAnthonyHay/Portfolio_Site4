@@ -7,6 +7,8 @@
   font-size: var(--font-size-21xl);
   color: var(--basic-white);
   font-family: var(--inter-18-medium);
+  /* padding top and bottom */
+  padding: 3rem 3rem;
 }
 .project-card {
   width: 64rem;
