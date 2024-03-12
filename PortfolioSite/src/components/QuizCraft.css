@@ -1,0 +1,103 @@
+.colorconnect-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--basic-white);
+    font-family: var(--inter-18-medium);
+  }
+  .project-card {
+    width: 64rem;
+    position: relative;
+    border-radius: var(--br-13xl);
+    background-color: var(--basic-onyx);
+    border: 1px solid var(--color-darkslategray);
+    box-sizing: border-box;
+    height: 35.313rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .phone-icon2 {
+    position: absolute;
+    right: 0rem;
+    height: 29rem;
+    object-fit: contain;
+    padding-top: 3.5rem;
+  }
+  .description,
+  .description-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem 0;
+  }
+  .description-text {
+    height: 22rem;
+  }
+  .description {
+    position: absolute;
+    top: 3.75rem;
+    left: 3.75rem;
+  }
+  .firebase-icon,
+  .swift-icon {
+    width: 4.375rem;
+    position: relative;
+    height: 4.375rem;
+  }
+  .firebase-icon {
+    width: 3.159rem;
+  }
+  .project-icons {
+    width: 8.534rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 2.188rem;
+  }
+  .project-name {
+    width: 31.438rem;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    min-height: 2.5rem;
+    max-height: 6.25rem;
+  }
+  .modern-social-media {
+    width: 31.438rem;
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-13xl);
+    color: var(--basic-dark-gray);
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+  }
+  .go-to-code {
+    position: relative;
+    font-weight: 500;
+  }
+  .vector-icon {
+    width: 1.125rem;
+    position: relative;
+    height: 0.75rem;
+  }
+  .button {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0 0.5rem;
+    font-size: var(--inter-18-medium-size);
+  }
+  
+  
+  
+  
