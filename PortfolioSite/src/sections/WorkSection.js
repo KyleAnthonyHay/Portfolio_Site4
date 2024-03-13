@@ -2,14 +2,17 @@ import ColorfulConnectContainer from "../components/work-components/ColorfulConn
 import QuizCraft from "../components/work-components/QuizCraft";
 import MakeItSnow from "../components/work-components/MakeItSnow";
 import "./WorkSection.css";
+import CountriesApp from "../components/work-components/CountriesApp";
 
 const WorkSection = () => {
   return (
     <div className="worksection">
       <b className="work">Work</b>
-      <ColorfulConnectContainer />
+      <CountriesApp/>
       <QuizCraft/>
       <MakeItSnow />
+      <ColorfulConnectContainer />
+     
     </div>
   );
 };

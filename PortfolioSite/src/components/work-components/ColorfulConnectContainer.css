@@ -37,10 +37,9 @@
 }
 .phone-icon {
   position: absolute;
-  top: 0;
-  right: 0.438rem;
-  width: 31.563rem;
-  height: 35.313rem;
+  top: 2rem;
+  right: 3rem;
+  width: 25.563rem;
   object-fit: cover;
 }
 .description,
