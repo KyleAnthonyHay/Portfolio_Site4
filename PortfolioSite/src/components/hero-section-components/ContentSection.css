@@ -1,5 +1,12 @@
 .kyle-anthony {
   color: var(--basic-white);
+  transition: 1s;
+  display: inline-flex;
+}
+.kyle-anthony:hover {
+  color: rgb(170, 45, 187);
+  transform: translateY(-0.1rem);
+  scale: 1.01;
 }
 .im-kyle-anthony {
   width: 50rem;

@@ -34,6 +34,7 @@
     height: 35.313rem;
     overflow: hidden;
     flex-shrink: 0;
+    transition: 1.05s;
   }
   .phone-icon-countries {
     position: absolute;
@@ -46,6 +47,8 @@
    .phone-icon-countries:hover {
     transform: translateY(-0.5rem);
     scale: 1.01;
+    
+    
   }
   .description,
   .description-text {
