@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Desktop from "./pages/Desktop";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   const action = useNavigationType();
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Desktop />} />
+      <Route path="/" element={<LandingPage />} />
     </Routes>
   );
 }

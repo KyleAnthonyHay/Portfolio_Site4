@@ -16,7 +16,7 @@ const ContentSection = () => {
           <div className="button">
             <div className="see-resume">See Resume</div>
           </div>
-          <div className="button1">
+          <div className="button">
             <div className="see-resume">{`See Work `}</div>
           </div>
         </div>

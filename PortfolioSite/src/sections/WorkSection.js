@@ -1,6 +1,6 @@
-import ColorfulConnectContainer from "../components/ColorfulConnectContainer";
-import QuizCraft from "../components/QuizCraft";
-import MakeItSnow from "../components/MakeItSnow";
+import ColorfulConnectContainer from "../components/work-components/ColorfulConnectContainer";
+import QuizCraft from "../components/work-components/QuizCraft";
+import MakeItSnow from "../components/work-components/MakeItSnow";
 import "./WorkSection.css";
 
 const WorkSection = () => {

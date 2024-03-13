@@ -1,8 +1,7 @@
 import AboutContainer from "../components/AboutContainer";
-import ColorfulConnectContainer from "../components/ColorfulConnectContainer";
 import ContentSection from "../components/ContentSection";
-import "./Desktop.css";
-import WorkSection from "./WorkSection";
+import WorkSection from '../sections/WorkSection'
+import "./LandingPage.css";
 
 const Desktop = () => {
   return (
