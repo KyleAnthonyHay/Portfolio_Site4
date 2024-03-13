@@ -13,7 +13,7 @@ const ColorfulConnectContainer = () => {
           <div className="description-text">
             <div className="project-name">{`Colorful Connect (In Progress) `}</div>
             <div className="modern-social-media">{`Modern social Media app built with SwiftUI. `}</div>
-            <div className="button">
+            <div className="card-button">
               <div className="go-to-code">Go to Code</div>
               <img className="vector-icon" alt="" src="/vector.svg" />
             </div>

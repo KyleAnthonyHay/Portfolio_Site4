@@ -1,5 +1,6 @@
 import "./ContentSection.css";
 
+
 const ContentSection = () => {
   const linkStyle = {
     color: 'white', // Define the color directly

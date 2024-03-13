@@ -41,6 +41,11 @@
     right: 3rem;
     width: 25.563rem;
     object-fit: cover;
+    transition: 1s;
+  }
+   .phone-icon-countries:hover {
+    transform: translateY(-0.5rem);
+    scale: 1.01;
   }
   .description,
   .description-text {
@@ -104,7 +109,7 @@
     position: relative;
     height: 0.75rem;
   }
-  .button {
+  .card-button {
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -115,10 +120,10 @@
     transition: 1s;
   }
   
-  .button:hover {
+  /* .card-button:hover {
     transform: translateY(-0.25rem);
     
-  }
+  } */
   
   
   

@@ -23,11 +23,16 @@
   }
   .phone-icon-munchMap {
     position: absolute;
-    right: 0rem;
-    top: .5rem;
-    height: 27rem;
+    right: -.5rem;
+    top: 1rem;
+    height: 26rem;
     object-fit: contain;
     padding-top: 3.5rem;
+    transition: 1s;
+  }
+  .phone-icon-munchMap:hover {
+    transform: translateX(-0.5rem);
+    scale: 1.01;
   }
   .description,
   .description-text {
@@ -91,7 +96,7 @@
     position: relative;
     height: 0.75rem;
   }
-  .button {
+  .card-button {
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -99,6 +104,7 @@
     justify-content: center;
     gap: 0 0.5rem;
     font-size: var(--inter-18-medium-size);
+    transition: 1s;
   }
   
   

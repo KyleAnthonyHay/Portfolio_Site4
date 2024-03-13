@@ -24,10 +24,15 @@
   }
   .phone-icon3 {
     position: absolute;
-    right: 0rem;
+    right: -.5rem;
     height: 22rem;
     object-fit: contain;
     padding-top: 6.5rem;
+    transition: 1s;
+  }
+  .phone-icon3:hover {
+    transform: translateX(-0.5rem);
+    scale: 1.02;
   }
   .description,
   .description-text {
@@ -91,7 +96,7 @@
     position: relative;
     height: 0.75rem;
   }
-  .button {
+  .card-button {
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -99,6 +104,7 @@
     justify-content: center;
     gap: 0 0.5rem;
     font-size: var(--inter-18-medium-size);
+    transition: 1s;
   }
   
   

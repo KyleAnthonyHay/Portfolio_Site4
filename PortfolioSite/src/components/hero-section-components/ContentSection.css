@@ -30,6 +30,11 @@
   justify-content: center;
   padding: var(--padding-base) var(--padding-13xl);
   box-sizing: border-box;
+  transition: 1s;
+}
+.button:hover{
+  transform: translateY(-0.3rem);
+  scale: 1.01;
 }
 .plus-icon {
   width: 1.5rem;

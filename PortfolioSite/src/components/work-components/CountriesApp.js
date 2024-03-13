@@ -12,7 +12,7 @@ const CountriesApp = () => {
           <div className="description-text">
             <div className="project-name">{`Countries App `}</div>
             <div className="modern-social-media">{`Country info-viewing app built in swift. `}</div>
-            <div className="button">
+            <div className="card-button">
               <div className="go-to-code">Go to Code</div>
               <img className="vector-icon" alt="" src="/vector.svg" />
             </div>

@@ -12,7 +12,7 @@ const ColorfulConnectContainer = () => {
           <div className="description-text">
             <div className="project-name">{`Make It Snow! ❄️ `}</div>
             <div className="modern-social-media">{`VisionOS app that turns your living room into a winter wonderland! `}</div>
-            <div className="button">
+            <div className="card-button">
               <div className="go-to-code">Go to Code</div>
               <img className="vector-icon" alt="" src="/vector.svg" />
             </div>
