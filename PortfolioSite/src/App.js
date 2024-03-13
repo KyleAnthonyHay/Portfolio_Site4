@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
+import ResumeView from "./pages/ResumeView";
 
 function App() {
   const action = useNavigationType();
@@ -46,6 +47,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<LandingPage />} />
+      <Route path="/resume" element={<ResumeView />} />
     </Routes>
   );
 }

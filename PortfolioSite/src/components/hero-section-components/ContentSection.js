@@ -1,6 +1,10 @@
 import "./ContentSection.css";
 
 const ContentSection = () => {
+  const linkStyle = {
+    color: 'white', // Define the color directly
+    textDecoration: 'none', // Remove the underline
+  };
   return (
     <div className="herosection">
       <div className="herotext">
@@ -14,7 +18,7 @@ const ContentSection = () => {
         </div>
         <div className="buttons">
           <div className="button">
-            <div className="see-resume">See Resume</div>
+          <a href="/resume" target="_blank" rel="noopener noreferrer" style={linkStyle}>See Resume</a>
           </div>
           <div className="button">
             <div className="see-resume">{`See Work `}</div>
