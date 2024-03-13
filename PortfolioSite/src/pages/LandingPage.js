@@ -1,5 +1,5 @@
-import AboutContainer from "../components/AboutContainer";
-import ContentSection from "../components/ContentSection";
+import AboutContainer from "../components/hero-section-components/NavBar";
+import ContentSection from "../components/hero-section-components/ContentSection";
 import WorkSection from '../sections/WorkSection'
 import "./LandingPage.css";
 

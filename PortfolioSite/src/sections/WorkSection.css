@@ -3,7 +3,7 @@
   flex-direction: column; /* Stack children vertically */
   align-items: center; /* Center children horizontally */
   justify-content: flex-start;
-  padding-top: 7rem;
+  padding-top: 10rem;
 
   width: 100%;
   background-color: #000;

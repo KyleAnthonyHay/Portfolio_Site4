@@ -1,4 +1,4 @@
-import "./AboutContainer.css";
+import "./NavBar.css";
 
 const AboutContainer = () => {
   return (
