@@ -106,7 +106,10 @@
     font-size: var(--inter-18-medium-size);
     transition: 1s;
   }
-  
+  .card-button:hover {
+    transform: translateY(-0.25rem);
+    
+  }
   
   
   

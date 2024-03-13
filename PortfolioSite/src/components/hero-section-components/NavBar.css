@@ -9,6 +9,11 @@
   position: relative;
   font-weight: 500;
   color: white;
+  transition: 1s;
+}
+.navbar-links:hover {
+  color: var(  --basic-dark-gray);
+  cursor:default;
 }
 .links {
   display: flex;
@@ -17,21 +22,12 @@
   justify-content: flex-start;
   gap: 0 2.5rem;
 }
-.linkedin-icon,
-.x-icon {
-  width: 1.375rem;
+.social-icon {
   position: relative;
-  height: 1.375rem;
+  transition: 1s;
 }
-.x-icon {
-  width: 1.348rem;
-  height: 1.219rem;
-}
-.github-icon,
-.line {
-  width: 1.494rem;
-  position: relative;
-  height: 1.469rem;
+.social-icon:hover{
+  transform: translateY(-0.25rem);
 }
 .line {
   width: 0.063rem;
@@ -55,6 +51,9 @@
   opacity: 0.7;
   padding-right: 1.5rem;
 }
+/* .socialicons:hover {
+  transform: translateY(-0.25rem);
+} */
 .navbar {
   width: 70%;
   border-radius: var(--br-xs);

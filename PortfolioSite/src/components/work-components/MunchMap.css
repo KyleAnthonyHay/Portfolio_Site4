@@ -107,6 +107,9 @@
     transition: 1s;
   }
   
-  
+  .card-button:hover {
+    transform: translateY(-0.25rem);
+    
+  }
   
   
