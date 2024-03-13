@@ -12,8 +12,8 @@ const MunchMap = () => {
         <img className="phone-icon-munchMap" alt="" src="/MunchMap@2x.png" />
         <div className="description">
           <div className="project-icons"> 
-            <img className="swift-icon" alt="" src="/flutter.svg" />
-            <img className="firebase-icon" alt="" src="/firebase.svg" />
+            <img className="swift-icon" alt="" src="/reactjs.svg" />
+            <img className="firebase-icon" alt="" src="/django.svg" />
           </div>
           <div className="description-text">
             <div className="project-name">{`MunchMap `}</div>

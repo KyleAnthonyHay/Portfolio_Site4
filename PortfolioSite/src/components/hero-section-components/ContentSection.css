@@ -83,7 +83,7 @@
   gap: 2.5rem 0;
 }
 .profilepicture-icon {
-  width: 22rem;
+  width: 26rem;
   position: relative;
   border-radius: var(--br-331xl);
   object-fit: cover;

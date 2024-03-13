@@ -13,6 +13,7 @@
 }
 .navbar-links:hover {
   color: var(  --basic-dark-gray);
+  scale: 1.05;
   cursor:default;
 }
 .links {
