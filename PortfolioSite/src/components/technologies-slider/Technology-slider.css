@@ -32,3 +32,8 @@
     transform: translateY(0.25rem);
 }
 
+.tech-icon {
+    width: 70px; /* Adjust as needed */
+    height: 70px; /* Adjust as needed */
+    object-fit: contain; /* This ensures the icon's aspect ratio is preserved */
+  }
