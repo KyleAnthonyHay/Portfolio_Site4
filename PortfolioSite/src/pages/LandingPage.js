@@ -11,9 +11,9 @@ const Desktop = () => {
     <div className="desktop-1">
       <AboutContainer />
       <ContentSection />
-      <TechnologySlider />å
+      <TechnologySlider />
       <WorkSection />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

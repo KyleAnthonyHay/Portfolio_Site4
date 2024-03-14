@@ -11,7 +11,7 @@ const BaseFrame = () => {
               className="logo-icon"
               loading="lazy"
               alt=""
-              src="/logo@2x.png"
+              src="/icons/logo@2x.png"
             />
             <div className="thanks-for-stopping-container">
               <span>{`Thanks for stopping by `}</span>
@@ -23,21 +23,20 @@ const BaseFrame = () => {
           </div>
         </div>
         <div className="link-list">
-          <div className="links">
+          <div className="footer-links">
             <b className="links1">Links</b>
             <div className="list-items">
-              <div className="work">Work</div>
-              <div className="tech-stack">Tech Stack</div>
-              <div className="contact">Contact</div>
+              <div className="footer-link">Work</div>
+              <div className="footer-link">About</div>
+              <div className="footer-link">Contact</div>
             </div>
           </div>
           <div className="links2">
-            <b className="elsewhere">Elsewhere</b>
-            <div className="list-items1">
-              <div className="email">Email</div>
-              <div className="linkedin">LinkedIn</div>
-              <div className="github">GitHub</div>
-              <div className="twitter">Twitter</div>
+            <b className="links1">Social</b>
+            <div className="list-items">
+              <div className="footer-link">LinkedIn</div>
+              <div className="footer-link">GitHub</div>
+              <div className="footer-link">Twitter</div>
             </div>
           </div>
         </div>
