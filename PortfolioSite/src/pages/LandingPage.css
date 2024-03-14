@@ -12,3 +12,7 @@
 
   overflow: hidden;
 }
+/* Hide scrollbar */
+.desktop-1::-webkit-scrollbar {
+  display: none;
+}
