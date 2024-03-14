@@ -1,6 +1,12 @@
 import "./NavBar.css";
+import React from "react";
+import { Link } from "react-scroll";
+
 
 const AboutContainer = () => {
+  function scrollToBottom ()  {
+    scroll.scrollToBottom();
+  };
   return (
     <div className="navbar">
       <div className="links">
