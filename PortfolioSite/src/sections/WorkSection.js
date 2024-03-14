@@ -38,10 +38,10 @@ const WorkSection = () => {
     <div id = "work-anchor" className="worksection">
       <b className="work">Work</b>
       <div className="work-container">
-      <CountriesApp/>
-      <MunchMap/>
-      <QuizCraft/>
       <MakeItSnow />
+      <CountriesApp/>
+      <QuizCraft/>
+      <MunchMap/>
       <ColorfulConnectContainer />
       </div>
      
