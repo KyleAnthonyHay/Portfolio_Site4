@@ -34,9 +34,9 @@ const BaseFrame = () => {
           <div className="links2">
             <b className="links1">Social</b>
             <div className="list-items">
-              <div className="footer-link">LinkedIn</div>
-              <div className="footer-link">GitHub</div>
-              <div className="footer-link">Twitter</div>
+              <a href="https://www.linkedin.com/in/kyle-anthonyhay" className="footer-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://github.com/KyleAnthonyHay" className="footer-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://twitter.com/KyleAnthonyHay" className="footer-link" target="_blank" rel="noopener noreferrer">Twitter</a>
             </div>
           </div>
         </div>
