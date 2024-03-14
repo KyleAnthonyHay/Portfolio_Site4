@@ -19,7 +19,7 @@
 /* Hide scrollbar for IE, Edge, and Firefox */
 .slider {
     padding-top: .5rem;
-    padding-bottom:.5rem;
+    padding-bottom: .5rem;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     overflow: scroll;

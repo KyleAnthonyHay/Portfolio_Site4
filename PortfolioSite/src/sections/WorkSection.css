@@ -23,9 +23,11 @@
   width: 100%; /* Makes sure it stretches to the full width of its parent */
   max-width: 100vw; /* Optional: ensures it does not exceed the viewport width */
   position: relative;
-
+  scroll-behavior: smooth;
 }
-
+.work-container::-webkit-scrollbar {
+  display: none;
+}
 .work {
   
   top: 8.375rem;

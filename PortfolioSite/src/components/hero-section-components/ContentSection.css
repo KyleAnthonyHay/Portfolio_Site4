@@ -87,6 +87,10 @@
   position: relative;
   border-radius: var(--br-331xl);
   object-fit: cover;
+  transition: 1s;
+}
+.profilepicture-icon:hover {
+  transform: translateY(-0.2rem);
 }
 .circle-portrait,
 .herosection {
