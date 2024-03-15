@@ -71,6 +71,12 @@
   font-family: var(--inter-18-medium); /* Ensure this variable is defined */
 }
 
-@media screen and (max-width: 450px) {
-  
+@media (max-width: 768px) {
+  .socialicons {
+    display: none;
+  }
+  .links {
+    gap: 2rem;
+  }
+
 }
