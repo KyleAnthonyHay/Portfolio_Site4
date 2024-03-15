@@ -34,7 +34,8 @@
 
 @media screen and (max-width: 450px) {
   .worksection {
-    padding-top: 0;
+    /* display: none; */
+    padding-top: 2;
   }
   .work {
     font-size: 3rem;

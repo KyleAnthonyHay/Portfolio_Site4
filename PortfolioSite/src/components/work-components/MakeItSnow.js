@@ -1,4 +1,5 @@
 import "./MakeItSnow.css";
+import "./WorkCards.css"
 
 const ColorfulConnectContainer = () => {
   const githubRepoUrl = "https://github.com/KyleAnthonyHay/MakeItSnow-VisionOS-";

@@ -1,23 +1,16 @@
 @media screen and (max-width: 450px) {
+
     .project-card {
-        width: 20rem;
-        /* height: 20rem; */
+        max-width: 25%;
+        overflow: scroll;
+        /* max-height: 50%; */
     }
+    .description {
+
+    }
+
+
     .phone-icon3, .phone-icon, .phone-icon2, .phone-icon-countries, .phone-icon-munchMap {
         display: none;
-    }
-    .description-text {
-        font-size: 28px; /* Adjust text size for readability */
-    }
-    .card-button {
-        font-size: 14px; /* Ensure buttons are also readable */
-        padding: 5px 10px; /* Adjust button padding for better tap targets */
-    }
-    .modern-social-media {
-        width: 40%; 
-        font-size: 22px;
-    }
-    .project-icons img{
-        width: 3rem;
     }
 }
