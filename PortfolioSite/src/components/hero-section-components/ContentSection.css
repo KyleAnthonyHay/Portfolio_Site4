@@ -22,7 +22,7 @@
   display: inline-block;
 }
 .a-mobileweb-developer,
-.see-resume {
+.see-work {
   position: relative;
   font-weight: 500;
 }
@@ -105,10 +105,35 @@
   box-sizing: border-box;
 }
 .herosection {
-  margin-top: 12rem;
+  display: flex;
+  margin-top: 10rem;
   align-items: center;
 
   font-size: var(--inter-80-extra-bold-size);
   color: var(--basic-dark-gray);
   font-family: var(--inter-18-medium);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .herosection {
+      flex-direction: column;
+      text-align: center;
+      
+  }
+  .herotext {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+
+  }
+  .profilepicture-icon, .button:nth-child(2) {
+      display: none;
+    }
+ 
+  .im-kyle-anthony, .a-mobileweb-developer {
+    max-width: 100%; 
+    width: auto; 
+  }
+  
 }

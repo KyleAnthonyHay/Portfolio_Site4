@@ -22,7 +22,7 @@ const ContentSection = () => {
           <a href="/resume" target="_blank" rel="noopener noreferrer" style={linkStyle}>See Resume</a>
           </div>
           <div className="button">
-            <div className="see-resume">{`See Work `}</div>
+            <div className="see-work">{`See Work `}</div>
           </div>
         </div>
       </div>
