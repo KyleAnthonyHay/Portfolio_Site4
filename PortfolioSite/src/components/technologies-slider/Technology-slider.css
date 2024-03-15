@@ -37,3 +37,15 @@
     height: 6rem; /* Adjust as needed */
     object-fit: contain; /* This ensures the icon's aspect ratio is preserved */
   }
+
+  /* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .tech-icon {
+        width: 3.5rem;
+        padding-right: 3rem;
+    }
+    .technology-slider-section, .slider {
+        padding-top: 0;
+        padding-bottom: 1rem;
+    }
+  }
