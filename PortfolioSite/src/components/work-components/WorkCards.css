@@ -1,23 +1,23 @@
 @media screen and (max-width: 450px) {
     .project-card {
         width: 20rem;
-        height: 20rem;
+        /* height: 20rem; */
     }
-    .project-card img {
+    .phone-icon3, .phone-icon, .phone-icon2, .phone-icon-countries, .phone-icon-munchMap {
         display: none;
     }
-    /* .description-text {
-        display: flex;
-        align-items: center;
-    } */
-    /* .description {
-        display: flex;
-        align-items: center;
-    } */
-    .description{
-        /* background-color: rgba(200, 162, 162, 0.5);
-        border: 1px solid #383737;
-        padding: 32px 24px;
-        font-size: 20px; */
+    .description-text {
+        font-size: 28px; /* Adjust text size for readability */
     }
-  }
+    .card-button {
+        font-size: 14px; /* Ensure buttons are also readable */
+        padding: 5px 10px; /* Adjust button padding for better tap targets */
+    }
+    .modern-social-media {
+        width: 40%; 
+        font-size: 22px;
+    }
+    .project-icons img{
+        width: 3rem;
+    }
+}
