@@ -149,15 +149,7 @@
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 750px) {
-  .base-frame {
-    gap: 16px 32px;
-    padding-left: var(--padding-33xl);
-    padding-right: var(--padding-33xl);
-    box-sizing: border-box;
-  }
-}
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
 
   .footerweb {
     flex-direction: column;
