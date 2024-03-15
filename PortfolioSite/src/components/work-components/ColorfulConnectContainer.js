@@ -1,5 +1,5 @@
 import "./ColorfulConnectContainer.css";
-
+import "./WorkCards.css";
 const ColorfulConnectContainer = () => {
   const githubRepoUrl = "https://github.com/KyleAnthonyHay/ColorfulConnect";
   const linkStyle = {

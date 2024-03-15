@@ -31,3 +31,12 @@
 .work {
   font-size: 5rem; 
 }
+
+@media screen and (max-width: 450px) {
+  .worksection {
+    padding-top: 0;
+  }
+  .work {
+    font-size: 3rem;
+  }
+}
