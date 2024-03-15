@@ -1,0 +1,74 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+.image-container:hover{
+    transform: scale(.98) translateY(.2rem);
+}
+
+.about-profile-image {
+    width: 500px; /* Adjust the width as needed */
+    height: 700px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-radius: 5%; /* Creates rounded corners */
+}
+
+.text-container {
+    flex: 2; /* Gives the text container twice the space of the image container */
+    padding-right: 6rem; 
+    color: var(--basic-light-gray);
+    width: 38rem;
+    font-size: 25px;
+    font-family: var(--inter-16-regular);
+    line-height: 1.5; /* Adjusts the line spacing */
+    letter-spacing: 0.04em;
+}
+.text-container span, .text-container a {
+    display: inline-block;
+    color: var(--basic-white);
+    font-weight: 600;
+    font-size: 26px;
+    transition: 1s;
+    text-decoration: none;
+}
+.text-container span:hover, .text-container a:hover{
+    color: rgb(170, 45, 187);
+    transform: translateY(-0.1rem);
+    scale: 1.01;
+    cursor: default;
+}
+.text-container p a:hover{
+    cursor: pointer;
+}
+.about-container-header {
+    font-size: 50px;
+    color: white;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-container {
+        padding-left: 0;
+    }
+
+    .image-container,
+    .text-container {
+        width: 100%; /* Ensures full width on smaller screens */
+    }
+}

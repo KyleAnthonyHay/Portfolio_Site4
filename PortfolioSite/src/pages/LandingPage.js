@@ -3,6 +3,7 @@ import ContentSection from "../components/hero-section-components/ContentSection
 import WorkSection from '../sections/WorkSection'
 import TechnologySlider from "../components/technologies-slider/Technology-slider";
 import Footer from "../components/footer/BaseFrame";
+import AboutSection from "../sections/AboutSection";
 
 import "./LandingPage.css";
 
@@ -13,6 +14,7 @@ const Desktop = () => {
       <ContentSection />
       <TechnologySlider />
       <WorkSection />
+      <AboutSection />
       <Footer />
     </div>
   );
