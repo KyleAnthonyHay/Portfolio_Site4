@@ -43,6 +43,7 @@
 .button:hover{
   transform: translateY(-0.3rem);
   scale: 1.01;
+  /* background: linear-gradient(180deg, #aa2dbb, #000000); */
 }
 .plus-icon {
   width: 1.5rem;

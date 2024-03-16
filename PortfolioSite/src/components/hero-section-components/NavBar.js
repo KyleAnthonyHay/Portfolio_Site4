@@ -16,10 +16,11 @@ const AboutContainer = () => {
     <div className="navbar">
       <div className="links">
         <img className="faceemoji-icon" alt="" src="/faceemoji@2x.png" />
-        <div className="navbar-links">About</div>
+        {/* <div className="navbar-links">About</div> */}
         <a href="https://medium.com/@haykyle917" className="navbar-links" target="_blank"><div>Blog</div></a>
-        <div className="navbar-links" onClick={handleLinkClick("work-anchor")}>Work</div>
-        <div className="navbar-links">Contact</div>
+        {/* <div className="navbar-links" onClick={handleLinkClick("work-anchor")}>Work</div> */}
+        <a href="mailto:haykyle917@gmail.com" className="navbar-links"><div>Contact</div></a>
+
       </div>
       <div className="socialicons">
         <a href="https://www.linkedin.com/in/kyle-anthonyhay/" target="_blank">
