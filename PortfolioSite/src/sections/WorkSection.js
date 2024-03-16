@@ -9,7 +9,7 @@ import MunchMap from "../components/work-components/MunchMap";
 const WorkSection = () => {
   return (
     <div id = "work-anchor" className="worksection">
-      <b className="work">Work</b>
+      <b className="work" id = "work-anchor">Work</b>
       <div className="work-container">
         <MakeItSnow />
         <CountriesApp/>

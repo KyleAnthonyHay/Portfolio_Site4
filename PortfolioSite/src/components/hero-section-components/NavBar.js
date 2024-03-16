@@ -1,18 +1,24 @@
 import "./NavBar.css";
 import React from "react";
-import { Link } from "react-scroll";
 
 
 const AboutContainer = () => {
-  function scrollToBottom ()  {
-    scroll.scrollToBottom();
+  const handleLinkClick = (id) => {
+    return () => {
+      const anchor = document.getElementById(id);
+      if (anchor) {
+        anchor.scrollIntoView({ behavior: 'smooth' });
+        console.log(`${id} anchor clicked`);
+      }
+    };
   };
   return (
     <div className="navbar">
       <div className="links">
         <img className="faceemoji-icon" alt="" src="/faceemoji@2x.png" />
         <div className="navbar-links">About</div>
-        <div className="navbar-links">Work</div>
+        <a href="https://medium.com/@haykyle917" className="navbar-links" target="_blank"><div>Blog</div></a>
+        <div className="navbar-links" onClick={handleLinkClick("work-anchor")}>Work</div>
         <div className="navbar-links">Contact</div>
       </div>
       <div className="socialicons">

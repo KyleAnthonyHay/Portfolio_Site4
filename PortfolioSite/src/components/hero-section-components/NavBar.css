@@ -10,6 +10,7 @@
   font-weight: 500;
   color: white;
   transition: 1s;
+  text-decoration: None;
 }
 .navbar-links:hover {
   color: var(  --basic-dark-gray);

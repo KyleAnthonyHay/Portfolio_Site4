@@ -7,7 +7,7 @@ const AboutSection = () => {
 
   
   return (
-    <div className="about-container">
+    <div className="about-container" id="about-anchor">
         <div className="text-container">
             <h3 className='about-container-header'>About Me</h3>  
             <p>My name is Kyle-Anthony, and I am a <span>Software</span> <span>Developer</span> based in Brooklyn, NYC. I focus on Swift, Flutter, and Web development. Additionally, I research and implement AI/ML solutions.</p>
