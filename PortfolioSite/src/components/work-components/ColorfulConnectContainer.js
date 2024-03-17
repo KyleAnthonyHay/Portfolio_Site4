@@ -9,7 +9,7 @@ const ColorfulConnectContainer = () => {
   return (
     <div className="colorconnect-card">
       <div className="project-card">
-        <img className="phone-icon" alt="" src="/ColorfulConnect@2x.png" />
+        <img className="colorfulPhone-icon" alt="" src="/ColorfulConnect@2x.png" />
         <div className="description">
           <div className="project-icons">
             <img className="swift-icon" alt="" src="/swift.svg" />
@@ -17,7 +17,7 @@ const ColorfulConnectContainer = () => {
           </div>
           <div className="description-text">
             <div className="project-name">{`Colorful Connect (In Progress) `}</div>
-            <div className="modern-social-media">{`Modern social Media app built with SwiftUI. `}</div>
+            <div className="project-summary">{`Modern social Media app built with SwiftUI. `}</div>
             <a href={githubRepoUrl} className="card-button" style={linkStyle} target="_blank" rel="noopener noreferrer">
                 <div className="go-to-code">Go to Code</div>
                 <img className="vector-icon" alt="" src="/vector.svg" />

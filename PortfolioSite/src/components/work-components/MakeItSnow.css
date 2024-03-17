@@ -1,4 +1,4 @@
-#visionOS-icon {
+#visionOS-graphic {
   position: absolute;
   right: -.5rem;
   height: 22rem;
@@ -6,55 +6,7 @@
   padding-top: 6.5rem;
   transition: 1s;
 }
-#visionOS-icon:hover {
+#visionOS-graphic:hover {
   transform: translateX(-0.5rem);
   scale: 1.02;
 }
-
-.firebase-icon,
-.swift-icon {
-  width: 4.375rem;
-  position: relative;
-  height: 4.375rem;
-}
-.firebase-icon {
-  width: 3.159rem;
-}
-
-.modern-social-media {
-  width: 31.438rem;
-  flex: 1;
-  position: relative;
-  font-size: var(--font-size-13xl);
-  color: var(--basic-dark-gray);
-  display: -webkit-inline-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  -webkit-line-clamp: 6;
-  -webkit-box-orient: vertical;
-}
-.go-to-code {
-  position: relative;
-  font-weight: 500;
-}
-.vector-icon {
-  width: 1.125rem;
-  position: relative;
-  height: 0.75rem;
-}
-.card-button {
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 0 0.5rem;
-  font-size: var(--inter-18-medium-size);
-  transition: 1s;
-}
-.card-button:hover {
-  transform: translateY(-0.25rem);
-  
-}
-
-

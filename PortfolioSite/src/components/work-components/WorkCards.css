@@ -9,7 +9,12 @@
     font-family: var(--inter-18-medium);
     /* padding top and bottom */
     padding: 3rem 3rem;
+    transition: .8s;
 }
+.colorconnect-card:hover {
+    transform: translateY(-1rem);
+}
+  
 .project-card {
     width: 64rem;
     position: relative;
@@ -29,6 +34,15 @@
     justify-content: flex-start;
     gap: 1rem 0;
 }
+.firebase-icon,
+.swift-icon {
+  width: 4.375rem;
+  position: relative;
+  height: 4.375rem;
+}
+.firebase-icon {
+    width: 3.159rem;
+  }
 .description-text {
     height: 22rem;
 }
@@ -53,8 +67,41 @@
     min-height: 2.5rem;
     max-height: 6.25rem;
 }
+.project-summary {
+    width: 31.438rem;
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-13xl);
+    color: var(--basic-dark-gray);
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+.card-button {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0 0.5rem;
+    font-size: var(--inter-18-medium-size);
+    transition: 1s;
+}
+.card-button:hover {
+    transform: translateY(-0.25rem);
 
-
+}
+.go-to-code {
+    position: relative;
+    font-weight: 500;
+}
+.vector-icon {
+width: 1.125rem;
+position: relative;
+height: 0.75rem;
+}
 @media screen and (max-width: 450px) {
 
     .project-card {
