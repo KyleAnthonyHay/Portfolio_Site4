@@ -10,7 +10,7 @@ const ColorfulConnectContainer = () => {
   return (
     <div className="colorconnect-card">
       <div className="project-card">
-        <img className="phone-icon3" alt="" src="/MakeItSnow.png" />
+        <img id="visionOS-icon" alt="" src="/MakeItSnow.png" />
         <div className="description">
           <div className="project-icons"> 
             <img className="swift-icon" alt="" src="/swift.svg" />

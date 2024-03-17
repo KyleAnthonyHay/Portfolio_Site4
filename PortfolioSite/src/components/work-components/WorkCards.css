@@ -1,3 +1,60 @@
+.colorconnect-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--basic-white);
+    font-family: var(--inter-18-medium);
+    /* padding top and bottom */
+    padding: 3rem 3rem;
+}
+.project-card {
+    width: 64rem;
+    position: relative;
+    border-radius: var(--br-13xl);
+    background-color: var(--basic-onyx);
+    border: 1px solid var(--color-darkslategray);
+    box-sizing: border-box;
+    height: 35.313rem;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.description,
+.description-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem 0;
+}
+.description-text {
+    height: 22rem;
+}
+.description {
+    position: absolute;
+    top: 3.75rem;
+    left: 3.75rem;
+}
+.project-icons {
+    width: 8.534rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 2.188rem;
+}
+.project-name {
+    width: 31.438rem;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    min-height: 2.5rem;
+    max-height: 6.25rem;
+}
+
+
 @media screen and (max-width: 450px) {
 
     .project-card {
