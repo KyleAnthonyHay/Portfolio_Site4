@@ -102,19 +102,51 @@ width: 1.125rem;
 position: relative;
 height: 0.75rem;
 }
+
+/* Mobile View */
 @media screen and (max-width: 450px) {
+    .colorconnect-card {
+        width: 100%;
+        padding: 4rem; 
+        box-sizing: border-box; /* Ensures padding is included in width */
+    }
 
     .project-card {
-        max-width: 25%;
-        overflow: scroll;
-        /* max-height: 50%; */
+        width: 100%; /* Make the card responsive */
+        height: auto; /* Adjust height to maintain aspect ratio */
+        aspect-ratio: 1; /* Creates a square shape */
+        padding: 1rem; /* Add some padding inside the card */
+        box-sizing: border-box; /* Includes padding in the width and height */
     }
+
     .description {
-
+        position: static; /* Adjust positioning to fit within the card naturally */
+        padding: 0.5rem; /* Add padding to ensure content does not touch the edges */
+        box-sizing: border-box; /* Ensure padding is included in the calculation NOT NEEDED?*/
+        align-items: center; /* Center align the items */
     }
 
+    .project-icons, .description-text {
+        gap: 0.5rem; /* Adjust gap to manage space */
+    }
+    .project-icons img {
+        width: 3.5rem; 
+    }
 
-    .phone-icon3, .phone-icon, .phone-icon2, .phone-icon-countries, .phone-icon-munchMap {
+    .project-name {
+        text-align: center;
+        font-size: 1.4rem; 
+        /* wrap */
+    }
+    .project-summary {
+        text-align: center;
+        font-size: 1.2rem; 
+    }
+
+    .card-button {
+        gap: 0.2rem; /* Adjust gap between text and icon */
+    }
+    .colorfulPhone-icon, .countries-icon, #visionOS-graphic, .phone-icon-countries, .phone-icon-munchMap, .quizCraft-graphic {
         display: none;
     }
 }

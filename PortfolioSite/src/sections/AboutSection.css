@@ -61,7 +61,7 @@
     .about-container {
         flex-direction: column;
         text-align: center;
-        padding-top: 0;
+        padding-top: 4rem;
         padding-bottom: 2rem;
     }
 

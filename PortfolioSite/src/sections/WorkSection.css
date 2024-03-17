@@ -2,7 +2,6 @@
   display: flex; /* Use flexbox to align children */
   flex-direction: column; /* Stack children vertically */
   align-items: center; /* Center children horizontally */
-  /* center children vertically */
   justify-content: center;
 
   padding-top: 5rem;
@@ -34,7 +33,7 @@
 
 @media screen and (max-width: 450px) {
   .worksection {
-    /* display: none; */
+    display: none;
     padding-top: 2;
   }
   .work {
