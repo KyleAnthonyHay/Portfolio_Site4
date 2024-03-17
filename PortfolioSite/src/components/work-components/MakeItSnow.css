@@ -3,7 +3,6 @@
   right: -.5rem;
   height: 22rem;
   object-fit: contain;
-  padding-top: 6.5rem;
   transition: 1s;
 }
 #visionOS-graphic:hover {

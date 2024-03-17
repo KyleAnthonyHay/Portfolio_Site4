@@ -1,9 +1,9 @@
 .quizCraft-graphic {
   position: absolute;
   right: -.5rem;
-  height: 29rem;
+  height: 26rem;
   object-fit: contain;
-  padding-top: 3.5rem;
+
   transition: 1s;
 }
 .quizCraft-graphic:hover {
